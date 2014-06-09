@@ -1,0 +1,84 @@
+html, body, section, ul, li, div {
+
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+  font: inherit;
+}
+
+section {
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 640px;
+  height: 255px;
+}
+
+section:after {
+  content: "";
+  clear: left;
+}
+
+ul {
+  display: block;
+  float: left;
+  cursor: pointer;
+  margin-right: 20px;
+  width: 200px;
+  height: 255px;
+  list-style-type: none;
+  border-bottom: 10px solid black;
+}
+
+ul:after {
+  content: "";
+  clear: left;
+}
+
+section ul:last-of-type {
+  margin-right: 0px;
+}
+
+.highlight {
+  border-bottom: 10px solid #FF7030;
+}
+
+li {
+  float: left;
+  display: block;
+  padding-top: 10px;
+  width: 200px;
+  height: 75px;
+}
+
+div {
+  background-color: #983002;
+  margin: auto;
+  height: 75px;
+}
+
+div#small {
+  width: 120px;
+}
+
+div#medium {
+  width: 160px;
+}
+
+div#large {
+  width: 200px;
+}
+
+
+
+
+
+
+
+
+
